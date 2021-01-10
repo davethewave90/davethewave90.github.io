@@ -4,9 +4,10 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="main.css" rel="stylesheet" type="text/css">
+  <script src="time.js"></script>
   <title>David Okerlund Course Portal</title>
 </head>
-<body>
+<body onload="display_last_modified()">
 
 <header>
 	<h1 class="headerfooter">
@@ -30,8 +31,7 @@ CIT 230: Assignment Portal
 
 <footer class="headerfooter">
 	<p>&copy 2020 | David H.Okerlund | Utah | <a strong="BYU Idaho Online" href="https://www.byui.edu" target="_blank">BYUI Online Learning</a></p>
-	Last Modified: <p id="time"></p>
-	<script src="time.js"></script>
+	<span>Last Modified: </span><span id="time"></span>
 </footer>
 
 </body>
