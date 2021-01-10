@@ -1,0 +1,44 @@
+body
+{
+  font-family: Minion Pro, Helvetica, sans-serif;
+  font-size: 16px;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+h1
+{
+  font-size: 1.7em;
+  align: center;
+}
+
+h2
+{
+  font-size: 1.6em;
+  margin-left: 20px;
+}
+
+img
+{
+  max-width: 100%;
+}
+
+.headerfooter
+{
+	background-color: #daffff;
+	border-radius: 12px;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	z-index: 0;
+}
+
+.profilepic
+{
+	box-shadow: 1px 1px 4px 1px #888;
+    overflow: hidden;
+	float: right;
+	margin-right: 25px;
+	margin-top: -75px;
+	z-index: 1;
+}
