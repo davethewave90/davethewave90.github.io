@@ -14,7 +14,7 @@ h1
 
 h2
 {
-  font-size: 1.6em;
+  font-size: 1.5em;
   margin-left: 20px;
 }
 
@@ -41,4 +41,9 @@ img
 	margin-right: 25px;
 	margin-top: -75px;
 	z-index: 1;
+}
+
+.timestamp
+{
+	color: #FF4500
 }
