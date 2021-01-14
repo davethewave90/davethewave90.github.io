@@ -1,6 +1,6 @@
 body
 {
-  font-family: Minion Pro, Helvetica, sans-serif;
+  font-family: "Minion Pro, Helvetica, sans-serif";
   font-size: 16px;
   background-color: #ffffff;
   color: #000000;
@@ -9,7 +9,6 @@ body
 h1
 {
   font-size: 1.7em;
-  align: center;
 }
 
 h2
@@ -35,8 +34,10 @@ img
 
 .profilepic
 {
+	width: 150px;
+	height: 200px;
 	box-shadow: 1px 1px 4px 1px #888;
-    overflow: hidden;
+  overflow: hidden;
 	float: right;
 	margin-right: 25px;
 	margin-top: -75px;
@@ -45,5 +46,5 @@ img
 
 .timestamp
 {
-	color: #FF4500
+	color: #d73407
 }

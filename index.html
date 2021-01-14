@@ -4,36 +4,36 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="This is the first poject and assignment portal/home page for David Okerlund. This is for
-  the BYU-I online learning class WDD 230 - Web Frontedn Devlelpment.">
+  the BYU-I online learning class WDD 230 - Web Frontend Development">
   <link href="main.css" rel="stylesheet" type="text/css">
   <script src="time.js"></script>
   <title>David Okerlund Course Portal</title>
 </head>
-<body onload="display_last_updated()">
+<body onload="display_time()">
 
 <header>
 	<h1 class="headerfooter">
 	  David H. Okerlund
 	</h1>
-	<img class="profilepic" alt="David Okerlund Profile Picture" src="David Okerlund.jpg">
+	<img class="profilepic" alt="David Okerlund Profile Picture" src="https://cdn.glitch.com/109f08f3-7a09-4571-8816-1e34944cf96b%2FDavid%20Okerlund.jpg?v=1610580043259">
 </header>
 
 <h2>
 CIT 230: Assignment Portal
-<hr>
 </h2>
+<hr>
 
 <nav>
 	<ul>
-		<li>Lesson 02: <a strong="lesson 2" href="page2.html" target="_blank">Assignment Link</a></li>
-		<li>Lesson 03: <a strong="lesson 3" href="page3.html" target="_blank">Assignment Link</a></li>
-		<li>Lesson 04: <a strong="lesson 4" href="page4.html" target="_blank">Link</a>
-		| <a strong="lesson 4" href="page4.html" target="_blank">Link</a></li>
+		<li>Lesson 02: <a href="page2.html" target="_blank">Assignment Link</a></li>
+		<li>Lesson 03: <a href="page3.html" target="_blank">Assignment Link</a></li>
+		<li>Lesson 04: <a href="page4.html" target="_blank">Link</a>
+		| <a href="page4.html" target="_blank">Link</a></li>
 	</ul>
 </nav>
 
 <footer class="headerfooter">
-	<p>&copy 2020 | David H. Okerlund | Utah | <a strong="BYU Idaho Online" href="https://www.byui.edu/online" target="_blank">BYUI Online Learning</a></p>
+  &copy; <span id ="year"></span> | David H. Okerlund | Mapleton, Utah | <a href="https://www.byui.edu/online" target="_blank">BYUI Online Learning</a><br>
 	<span class="timestamp">Last Updated: </span><span class="timestamp" id="time"></span>
 </footer>
 
