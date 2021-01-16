@@ -1,43 +1,40 @@
-<!DOCTYPE html>
-<html lang="en-us">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="This is the first poject and assignment portal/home page for David Okerlund. This is for
-  the BYU-I online learning class WDD 230 - Web Frontend Development">
-  <link href="normalize.css" rel="stylesheet" type="text/css">
-  <link href="main.css" rel="stylesheet" type="text/css">
-  <link href="medium.css" rel="stylesheet" type="text/css">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Mono&family=Roboto+Slab:wght@300;400&display=swap" rel="stylesheet"> 
-  <script src="time.js"></script>
-  <title>David Okerlund Course Portal</title>
-</head>
-<body onload="display_time()">
+body
+{
+  font-family: 'Roboto Slab', 'Roboto', 'Roboto Mono', sans-serif;
+  font-size: 16px;
+  background-color: #ffffff;
+  color: #000000;
+  max-width: 650px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
 
-<header>
-  <img class="profilepic" alt="David Okerlund Profile Picture" src="https://cdn.glitch.com/109f08f3-7a09-4571-8816-1e34944cf96b%2FDavid%20Okerlund.jpg?v=1610580043259">
-  <h1>David H. Okerlund</h1>
-</header>
+img
+{
+  max-width: 100%;
+  display: block;
+}
 
-  <br>
-  <h2>CIT 230: Assignment Portal</h2>
-  <hr>
+header
+{
+	background-color: #00ffff;
+	text-align: center;
+}
 
-<nav>
-	<ul>
-		<li>Lesson 02: <a href="page2.html" target="_blank">Assignment Link</a></li>
-		<li>Lesson 03: <a href="page3.html" target="_blank">Assignment Link</a></li>
-		<li>Lesson 04: <a href="page4.html" target="_blank">Link</a>
-		| <a href="page4.html" target="_blank">Link</a></li>
-	</ul>
-</nav>
+footer
+{
+	background-color: #00ffff;
+	text-align: center;
+}
 
-  <br>
-<footer>
-  &copy; <span id ="year"></span> | David H. Okerlund | Mapleton, Utah | <a href="https://www.byui.edu/online" target="_blank">BYUI Online Learning</a><br>
-	<span class="timestamp">Last Updated: </span><span class="timestamp" id="time"></span>
-</footer>
+.profilepic
+{
+	width: 150px;
+	height: 225px;
+}
 
-</body>
-</html>
+.timestamp
+{
+	color: #CE1308;
+}
