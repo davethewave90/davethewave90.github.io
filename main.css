@@ -38,3 +38,8 @@ footer
 {
 	color: #CE1308;
 }
+
+ul
+{
+  list-style-type: none;
+}

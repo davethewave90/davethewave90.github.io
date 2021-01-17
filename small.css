@@ -1,4 +1,4 @@
-@media only screen and (min-width: 40em)
+@media only screen and (min-width: 20em)
 {
 body
 {
@@ -6,7 +6,7 @@ body
   font-size: 16px;
   background-color: #ffffff;
   color: #000000;
-  max-width: 650px;
+  max-width: 350px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 20px;
@@ -15,17 +15,20 @@ body
 main
 {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  column-gap: 40px;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  column-gap: 20px;
 }
   
 div
 {
   background-color: lightgray;
   box-shadow: 1px 1px 4px 1px #888;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
 }
-  
+
 h1
 {
   font-size: 1.7em;
@@ -70,8 +73,8 @@ img
   display: block;
   height: 300px;
   width: 300px;
-  padding-left: auto;
-  padding-right: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 header
