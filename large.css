@@ -70,8 +70,8 @@ img
   display: block;
   height: 300px;
   width: 300px;
-  padding-left: auto;
-  padding-right: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 header
