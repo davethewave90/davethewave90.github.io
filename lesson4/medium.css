@@ -1,0 +1,102 @@
+@media only screen and (min-width: 40em)
+{
+body
+{
+  font-family: 'Montserrat', 'Merriweather', 'Lato', 'Roboto Slab', 'Roboto', 'Roboto Mono', sans-serif;
+  font-size: 14px;
+  background-color: #ffffff;
+  color: #000000;
+}
+  
+main
+{
+  
+}
+  
+header
+{
+	background-color: rgba(36, 131, 134, 0.8);
+	text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #ffffff;
+  margin-left: auto;
+  margin-right: auto;
+}
+  
+nav
+{
+  background-color: rgba(36, 131, 134, 1);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+  
+a
+{
+  text-decoration: none;
+  color: #ffffff;
+}
+  
+a:hover
+{
+  text-decoration: none;
+  color: #ffffff;
+  text-decoration: underline;
+}
+  
+ul li
+{
+  list-style-type: none;
+  display: inline;
+}
+  
+h1
+{
+  display: inline;
+}
+  
+h2
+{
+  text-align: center;  
+}
+  
+img
+{
+  max-width: 100%;
+  display: inline;
+  width: 50px;
+  height: 50px;
+}
+  
+main
+{
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+  
+div
+{
+  background-color: #c8c8c8;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+  margin-top: 10px;
+}
+  
+footer
+{
+	background-color: #00ffff;
+	text-align: center;
+  max-width: 80%;
+  background-color: rgba(36, 131, 134, 1);
+  color: #ffffff;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+  
+}
