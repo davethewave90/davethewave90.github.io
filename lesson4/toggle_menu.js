@@ -1,4 +1,5 @@
-function toggleMenu()
+function toggle_nav()
 {
-  document.getElementByClassName("navigation")[0].classList.toggle("responsive");
+  document.getElementById("hamburger_nav").classList.toggle("hide_nav");
+  document.getElementsByClassName("navigation")[0].classList.toggle("responsive");
 }
