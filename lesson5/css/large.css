@@ -34,11 +34,6 @@ grid-row-end: 1;
 margin-left: -75px;
 }
 
-#hero_image
-{
-height: 600px;
-}
-
 #article_title
 {
 margin-left: 20px;
@@ -61,15 +56,6 @@ margin-left: 20px;
 
 iframe
 {
-margin-top: 20px;
 height: 400px;
-width: 100%;
-margin-left: -20px;
-}
-
-footer
-{
-margin-left: 20px;
-margin-right: 20px;
 }
 }

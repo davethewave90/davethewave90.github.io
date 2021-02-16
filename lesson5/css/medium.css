@@ -9,6 +9,11 @@ button
 {
   display: inline;  
 }
+  
+a
+{
+margin-left: 10px;
+}
 
 ul
 {
@@ -17,13 +22,19 @@ text-align: center;
 
 li
 {
-display: inline;  
-margin-top: 20px;
+display: inline;
+text-align: center;
 }
-
-.forecast
+  
+#forecast_items
 {
-margin-left: 0px;
+margin-left: auto;
+margin-right: auto;
+}
+  
+#forecast_first_item
+{
+  margin-left: -10px;
 }
 
 header
@@ -62,17 +73,6 @@ margin-top: 60px;
 margin-left: -145px;
 }
 
-#hero_image
-{
-height: 400px;
-}
-
-main
-{
-margin-left: 20px;
-margin-right: 20px;
-}
-
 #article
 {
 margin-right: 20px;
@@ -92,9 +92,5 @@ display: inline;
 
 iframe
 {
-margin-top: 20px;
 height: 200px;
-width: 100%;
-margin-left: -20px;
-}
 }
