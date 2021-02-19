@@ -1,0 +1,43 @@
+@media only screen and (min-width: 1024px)
+{
+#floater_header
+{
+font-size: 1em;
+}
+  
+#floater_text_first_item
+{
+font-size: 1em;
+}
+
+.floater_text
+{
+font-size: 1em;
+margin-top: 30px;
+}
+
+#article_title
+{
+margin-left: 20px;
+}
+
+#article_subtitle
+{
+margin-left: 30px;
+}
+
+#contact_header
+{
+margin-left: 20px;
+}
+
+.contact_paragraphs
+{
+margin-left: 20px;
+}
+
+iframe
+{
+height: 400px;
+}
+}
