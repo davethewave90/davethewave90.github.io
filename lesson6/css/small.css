@@ -289,3 +289,55 @@ margin-top: 20px;
 padding-bottom: 20px;
 padding-top: 20px;
 }
+
+#gallery_body
+{
+background-color: #c8c8c8;
+}
+
+#gallery_header
+{
+text-align:center;
+margin-top: 20px;
+}
+
+#gallery_div
+{
+margin-top: 20px;
+display: grid;
+grid-template-columns: 1fr;
+grid-gap: 10px;
+}
+
+figure
+{
+max-width: 300px;
+margin-left: auto;
+margin-right: auto;
+}
+
+figcaption
+{
+text-align: center;
+}
+
+figure img[data-src]
+{
+filter: blur(0.2em);
+}
+
+figure img
+{
+filter: blur(0em);
+transition: filter 0.5s;
+}
+
+#lighning
+{
+margin-top: 0px;
+}
+
+.pics
+{
+margin-top: 20px;
+}

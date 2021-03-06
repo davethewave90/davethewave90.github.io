@@ -7,7 +7,7 @@ button
 
 .hide_nav
 {
-  display: inline;  
+  display: inline;
 }
   
 a
@@ -115,5 +115,11 @@ display: inline;
 iframe
 {
 height: 200px;
+}
+  
+#gallery_div
+{
+margin-top: 20px;
+grid-template-columns: 1fr 1fr;
 }
 }

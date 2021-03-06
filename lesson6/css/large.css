@@ -40,4 +40,15 @@ iframe
 {
 height: 400px;
 }
+  
+#gallery_div
+{
+margin-top: 20px;
+grid-template-columns: 1fr 1fr 1fr;
+}
+  
+figure img
+{
+box-shadow: 0px 10px 40px #000000;
+}
 }
