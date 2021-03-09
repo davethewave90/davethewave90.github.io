@@ -12,11 +12,29 @@
   <link href="../lesson6/css/medium.css" rel="stylesheet" type="text/css">
   <link href="../lesson6/css/large.css" rel="stylesheet" type="text/css">
   <title>GalleryPage</title>
-  <script src="../lesson6/js/time.js"></script>
-  <script src="../lesson6/js/wind_chill.js"></script>
-  <script src="../lesson6/js/main.js"></script>
+  <script src="../lesson6/js/time.js" defer></script>
+  <script src="../lesson6/js/wind_chill.js" defer></script>
+  <script src="../lesson6/js/main.js" defer></script>
 </head>
 <body id="gallery_body" onload="main()">
+
+  <header>
+    <img id="logo" alt="logo" src="../lesson6/images/weather_icon.webp">
+    <h1>ReadyWeather.Net</h1>
+    <h4 id="motto">Rain or Shine, We've Got You Covered</h4>
+  </header>
+  
+  <nav>
+    <button onclick="toggle_nav()">&#9776;</button>
+    <ul id="hamburger_nav" class="hide_nav">
+      <li><a target="_blank" href="#">Home</a></li>
+      <li><a target="_blank" href="index.html">Preston</a></li>
+      <li><a target="_blank" href="#">Soda Springs</a></li>
+      <li><a target="_blank" href="#">FishHaven</a></li>
+      <li><a target="_blank" href="#">Storm Center</a></li>
+      <li><a id="active" target="_blank" href="#">Gallery</a></li>
+    </ul>
+  </nav>
   
   <h1 id="gallery_header">Weather Gallery</h1>
   
