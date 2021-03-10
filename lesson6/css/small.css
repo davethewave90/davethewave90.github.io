@@ -341,3 +341,99 @@ margin-top: 0px;
 {
 margin-top: 20px;
 }
+
+#sc_main
+{
+margin-top: 10px;
+}
+
+form
+{
+width: 90%;
+margin-left: auto;
+margin-right: auto;
+}
+
+legend
+{
+color: #b94b3e;
+margin-top: 10px;
+}
+
+.inputs
+{
+padding: 10px;
+width: 90%;
+}
+
+#severity_input
+{
+width: 90%;
+}
+
+textarea
+{
+width: 90%;
+}
+
+#radio_div
+{
+width: 47%;
+margin-left: auto;
+margin-right: auto;
+}
+
+.your_info
+{
+display: block;
+text-align: center;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+
+.storm_info
+{
+display: block;
+text-align: center;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+
+.additional_info
+{
+display: block;
+text-align: center;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+
+#danger_question
+{
+text-align: center;
+color: #b94b3e;
+margin-top: 10px;
+padding: 15px;
+}
+
+#submit_button
+{
+background-color: rgba(36, 131, 134, 0.8);
+color: #ffffff;
+border: 1px solid black;
+border-radius: 2px;
+padding: 15px;
+margin-top: 10px;
+margin-bottom: 10px;
+width: 100%;
+margin-left: auto;
+margin-right: auto;
+}
+
+#thanks_main
+{
+width: 80%;
+margin-left: auto;
+margin-right: auto;
+line-height: 20px;
+padding: 50px;
+}

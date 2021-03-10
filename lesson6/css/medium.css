@@ -116,7 +116,7 @@ iframe
 {
 height: 200px;
 }
-
+  
 #byui_link
 {
 margin-left: 0px;
@@ -126,5 +126,27 @@ margin-left: 0px;
 {
 margin-top: 20px;
 grid-template-columns: 1fr 1fr;
+}
+  
+.inputs
+{
+padding: 15px;
+}
+  
+textarea
+{
+padding: 15px;
+}
+  
+#radio_div
+{
+width: 22%;
+margin-left: auto;
+margin-right: auto;
+}
+  
+#thanks_main
+{
+padding: 100px;
 }
 }
