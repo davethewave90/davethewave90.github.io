@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+<html lang="en-us">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="This page is the home page for the readyweather.net website">
+  <link href="../lesson6/css/normalize.css" rel="stylesheet" type="text/css">
+  <link href="../lesson6/css/small.css" rel="stylesheet" type="text/css">
+  <link href="../lesson6/css/medium.css" rel="stylesheet" type="text/css">
+  <link href="../lesson6/css/large.css" rel="stylesheet" type="text/css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Mono&family=Roboto+Slab:wght@300;400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lato&family=Merriweather:wght@300&family=Montserrat:wght@600&display=swap" rel="stylesheet">
+  <title>Home Page</title>
+  <script src="home_time.js"></script>
+  <script src="home_main.js"></script>
+  <script src="hamburger_nav.js"></script>
+  <script src="home.js"></script>
+</head>
+<body onload="weather_main()">
+
+<header>
+    <img id="logo" alt="logo" src="https://cdn.glitch.com/07f89c73-8ab6-462b-a5c3-edb8ff04ac03%2Fweather_icon.webp?v=1613515828346">
+    <h1>ReadyWeather.Net</h1>
+    <h4 id="motto">Rain or Shine, We've Got You Covered</h4>
+</header>
+
+<nav>
+  <button onclick="storm_center_toggle_nav()">&#9776;</button>
+  <ul id="storm_center_hamburger_nav" class="hide_nav">
+    <li><a id="active" target="_blank" href="#">Home</a></li>
+    <li><a target="_blank" href="../lesson6/index.html">Preston</a></li>
+    <li><a target="_blank" href="#">Soda Springs</a></li>
+    <li><a target="_blank" href="#">FishHaven</a></li>
+    <li><a target="_blank" href="../lesson8_2/index.html">Storm Center</a></li>
+    <li><a target="_blank" href="../lesson7_2/index.html">Gallery</a></li>
+  </ul>
+</nav>
+
+<main>
+  <div class="cards"></div>   
+</main>
+  
+<footer>
+<span>David H. Okerlund | Mapleton, Utah | </span><span><a id="byui_link" href="https://www.byui.edu/online" target="_blank">BYUI Online Learning</a></span>
+  <p id="home_time"></p>
+</footer>
+
+</body>
+</html>
