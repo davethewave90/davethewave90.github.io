@@ -1,4 +1,4 @@
-const requestURL = 'weather.json';
+const requestURL = 'home.json';
 
 fetch(requestURL)
   .then(function (response) {
