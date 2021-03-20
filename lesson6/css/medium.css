@@ -149,22 +149,3 @@ margin-right: auto;
 {
 padding: 100px;
 }
-  
-.cards
-{
-flex-direction: column;
-}
-
-section
-{
-display:flex;
-flex-direction: row;
-width: 90%;
-}
-  
-.cards section:nth-child(3)
-{
-flex-direction:row-reverse;
-flex-wrap: nowrap;
-}
-}

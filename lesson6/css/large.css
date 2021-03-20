@@ -73,27 +73,3 @@ margin-right: auto;
 {
 width: 100%;
 }
-  
-section
-{
-display:flex;
-flex-direction: column;
-width: 90%;
-margin: 10px;
-}
-
-.cards
-{
-flex-direction:row;
-}
-
-.cards section
-{
-flex-direction: column;
-}
-
-.cards section:nth-child(3)
-{
-flex-direction:column;
-}
-}
