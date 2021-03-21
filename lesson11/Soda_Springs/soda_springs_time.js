@@ -1,4 +1,4 @@
-function sodaprings_display_date()
+function soda_springs_display_date()
 {
   let today = new Date();
   let myday = today.getDay();
@@ -110,7 +110,7 @@ function sodaprings_display_date()
     month = "December";
   }
 
-  document.getElementById("sodaprings_time").innerHTML = day + ", " + my_day_of_month + " " + month + " " + year;
+  document.getElementById("soda_springs_time").innerHTML = day + ", " + my_day_of_month + " " + month + " " + year;
 
   document.getElementById("days3").innerHTML = day3;
   document.getElementById("days4").innerHTML = day4;
