@@ -1,3 +1,14 @@
+function display_event()
+{
+  let mydate = new Date();
+	let event_day = mydate.getDay();
+
+	if (event_day == 5)
+	{
+		document.getElementById("banner_span").innerHTML = "Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion.";    
+	}
+}
+
 function api_display_date()
 {
   let today = new Date();
@@ -56,6 +67,9 @@ function api_display_date()
   else
   {
     day = "Sunday";
+    day3 = "Tuesday";
+    day4 = "Wednesday";
+    day5 = "Thursday";
   }
 
   if (mymonth == 0)

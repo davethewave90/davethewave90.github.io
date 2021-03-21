@@ -4,5 +4,5 @@ function api_main()
   
   display_event();
   
-  display_date();
+  api_display_date();
 }

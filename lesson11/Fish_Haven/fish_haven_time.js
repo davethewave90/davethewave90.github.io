@@ -56,6 +56,9 @@ function fish_haven_display_date()
   else
   {
     day = "Sunday";
+    day3 = "Tuesday";
+    day4 = "Wednesday";
+    day5 = "Thursday";
   }
 
   if (mymonth == 0)
