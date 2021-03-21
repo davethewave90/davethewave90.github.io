@@ -1,0 +1,471 @@
+body
+{
+font-family: 'Montserrat', 'Merriweather', 'Lato', 'Roboto Slab', 'Roboto', 'Roboto Mono', sans-serif;
+font-size: 16px;
+background-color: #ffffff;
+color: #000000;
+}
+
+#banner_div
+{
+background-color: rgba(36, 131, 134, 1);
+text-align: center;
+padding-top: 30px;
+padding-bottom: 30px;
+}
+
+#banner_span
+{
+color: #ffffff;
+}
+  
+header
+{
+background-color: rgba(36, 131, 134, 0.8);
+text-align: center;
+padding-top: 20px;
+padding-bottom: 20px;
+color: #ffffff;
+display: grid;
+grid-template-columns: 1fr;
+grid-template-rows: 1fr;
+}
+  
+nav
+{
+background-color: rgba(36, 131, 134, 1);
+padding-top: 20px;
+padding-bottom: 20px;
+text-align: center;
+}
+  
+button
+{
+background-color: transparent;
+color: black;
+border: none;
+font-size: 32px;
+margin-left: auto;
+margin-right: auto;
+}
+  
+.hide_nav
+{
+display: none; 
+}
+  
+a
+{
+color: #ffffff;
+text-decoration: none;
+}
+  
+a:hover
+{
+color: #ffffff;
+text-decoration: underline;
+}
+
+#active
+{
+color: #ffffff;
+text-decoration: none;
+background-color: rgb(128, 0, 128);
+border: 1px solid black;
+border-radius: 2px;
+padding: 5px;
+}
+
+#active:hover
+{
+color: #ffffff;
+text-decoration: underline;
+background-color: rgba(128, 0, 128, 0.6);
+border: 1px solid black;
+border-radius: 2px;
+padding: 5px;
+}
+
+h1
+{
+grid-column-start: 1;
+grid-column-end: 1;
+grid-row-start: 1;
+grid-row-end: 1;
+font-size: 1.2em;
+margin-top: 30px;
+}
+
+h2
+{
+text-align: center;  
+}
+  
+#motto
+{
+grid-column-start: 1;
+grid-column-end: 1;
+grid-row-start: 1;
+grid-row-end: 1;
+padding-left: 80px;
+white-space: nowrap;
+font-size: 14px;
+margin-top: 50px;
+margin-left: 40px;
+margin-right: 10px;
+}
+
+img
+{
+display: block;
+overflow: hidden;
+max-width: 100%;
+}
+  
+#logo
+{
+width: 100px;
+height: 100px;
+grid-column-start: 1;
+grid-column-end: 1;
+grid-row-start: 1;
+grid-row-end: 1;
+margin-left: 15px;
+}
+
+main
+{
+width: 100%;
+background-color: rgba(200, 200, 200, 0.4);
+}
+
+#hero_div
+{
+position: relative;
+width: 80%;
+margin-top: 20px;
+margin-bottom: 40px;
+margin-left: auto;
+margin-right: auto;
+padding-top: 20px;
+}
+
+.hero_image
+{
+width: 100%;
+box-shadow: 1px 1px 4px 1px #888;
+border: 1px solid black;
+border-radius: 4px;
+}
+
+#temp
+{
+display: none;
+}
+
+#weather_summary
+{
+position: absolute;
+top: 20%;
+left: 5%;
+background: radial-gradient(rgba(36, 131, 134, 0.4), rgba(36, 131, 134, 0.6));
+border: 1px solid black;
+border-radius: 2px;
+padding-left: 2%;
+padding-right: 2%;
+}
+
+#floater_header
+{
+color: #ffffff;
+text-decoration: underline;
+font-size: 0.6em;
+}
+
+#floater_text_first_item
+{
+color: #ffffff;
+font-size: 0.6em;
+}
+
+.floater_text
+{
+color: #ffffff;
+font-size: 0.6em;
+}
+
+ul
+{
+list-style-type: none;
+}
+  
+li
+{
+display: block;  
+margin-top: 20px;
+text-align: left;
+}
+
+#weather_forecast
+{
+text-align: center;
+}
+
+.forecast
+{
+display: inline;
+margin-left: 10px;
+}
+
+#article_title
+{
+text-align: left;
+text-decoration: underline;
+margin-left: 10px;
+}
+
+#article
+{
+text-align: left;
+margin-left: 20px;
+line-height: 20px;
+}
+
+#article_subtitle
+{
+text-align: left;
+font-style: oblique;
+margin-top: -10px;
+margin-left: 20px;
+}
+
+#contact_header
+{
+text-align: left;
+margin-left: 10px;
+}
+
+.contact_paragraphs
+{
+margin-left: 10px;
+}
+
+#social_media_first_list_item
+{
+margin-left: 20px;
+display: inline;
+}
+
+.social_media_list
+{
+margin-left: 10px;
+display: inline;
+}
+
+.social_media_icons
+{
+	height: 50px;
+	width: 50px;
+  display: inline;
+}
+
+.social_media_icons:hover
+{
+	height: 75px;
+	width: 75px;
+}
+
+iframe
+{
+margin-top: 20px;
+height: 100px;
+width: 100%;
+border: none;
+}
+
+footer
+{
+background-color: #00ffff;
+text-align: center;
+width: 100%;
+background-color: rgba(36, 131, 134, 1);
+color: #ffffff;
+margin-top: 20px;
+padding-bottom: 20px;
+padding-top: 20px;
+}
+
+#gallery_body
+{
+background-color: #c8c8c8;
+}
+
+#gallery_header
+{
+text-align:center;
+margin-top: 20px;
+}
+
+#gallery_div
+{
+margin-top: 20px;
+display: grid;
+grid-template-columns: 1fr;
+grid-gap: 10px;
+}
+
+figure
+{
+max-width: 300px;
+margin-left: auto;
+margin-right: auto;
+}
+
+figcaption
+{
+text-align: center;
+}
+
+figure img[data-src]
+{
+filter: blur(0.2em);
+}
+
+figure img
+{
+filter: blur(0em);
+transition: filter 0.5s;
+}
+
+#lighning
+{
+margin-top: 0px;
+}
+
+.pics
+{
+margin-top: 20px;
+}
+
+#sc_main
+{
+margin-top: 10px;
+}
+
+form
+{
+width: 90%;
+margin-left: auto;
+margin-right: auto;
+}
+
+legend
+{
+color: #b94b3e;
+margin-top: 10px;
+}
+
+.inputs
+{
+padding: 10px;
+width: 90%;
+}
+
+#severity_input
+{
+width: 90%;
+}
+
+textarea
+{
+width: 90%;
+}
+
+#radio_div
+{
+width: 47%;
+margin-left: auto;
+margin-right: auto;
+}
+
+.your_info
+{
+display: block;
+text-align: center;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+
+.storm_info
+{
+display: block;
+text-align: center;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+
+.additional_info
+{
+display: block;
+text-align: center;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+
+#danger_question
+{
+text-align: center;
+color: #b94b3e;
+margin-top: 10px;
+padding: 15px;
+}
+
+#submit_button
+{
+background-color: rgba(36, 131, 134, 0.8);
+color: #ffffff;
+border: 1px solid black;
+border-radius: 2px;
+padding: 15px;
+margin-top: 10px;
+margin-bottom: 10px;
+width: 100%;
+margin-left: auto;
+margin-right: auto;
+}
+
+#thanks_main
+{
+width: 80%;
+margin-left: auto;
+margin-right: auto;
+line-height: 20px;
+padding: 50px;
+}
+
+table
+{
+margin-left: auto;
+margin-right: auto;
+}
+
+td
+{
+text-align: center;
+}
+
+td img
+{
+margin-left: auto;
+margin-right: auto;
+}
+
+#town_events
+{
+margin-left: auto;
+margin-right: auto;
+border: 1px solid #ffffff;
+color: #ffffff;
+background-color: rgba(36, 131, 134, 0.8);
+text-align: center;
+}
