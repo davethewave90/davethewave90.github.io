@@ -4,5 +4,5 @@ function preston_main()
   
   display_event();
   
-  display_date();
+  preston_display_date();
 }
