@@ -1,6 +1,6 @@
-function sodaprings_main()
+function soda_springs_main()
 {
   display_windchill();
   
-  sodasprings_display_date();
+  soda_springs_display_date();
 }
