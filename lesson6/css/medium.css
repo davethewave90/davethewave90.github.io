@@ -34,7 +34,7 @@ margin-right: auto;
   
 #forecast_first_item
 {
-  margin-left: -10px;
+margin-left: -10px;
 }
 
 header
@@ -148,4 +148,5 @@ margin-right: auto;
 #thanks_main
 {
 padding: 100px;
+}
 }
