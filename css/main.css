@@ -94,7 +94,7 @@ h6
 button
 {
 	background-color: transparent;
-	color: white;
+	color: rgba(255, 255, 255, 1);
 	border: none;
 	grid-column-start: 1;
 	grid-column-end: 1;
@@ -115,7 +115,7 @@ nav
 
 div
 {
-	background-color: rgba(255, 2255, 255, 1);
+	background-color: rgba(255, 255, 255, 1);
 	padding: 2%;
 	width: 80%;
 	margin-left: auto;
@@ -140,7 +140,7 @@ li a:hover
 	background-color: rgba(255, 255, 255, 1);
 }
 
-#active:hover;
+#active:hover
 {
 	text-decoration: underline;
 }
@@ -179,12 +179,12 @@ main
 
 .h5_subtitles
 {
-	color: rgba(173, 138, 73, 1);
+	color: rgba(152, 111, 56, 1);
 }
 
 .h3_subtitles
 {
-	color: rgba(254, 128, 66, 1);
+	color: rgba(200, 81, 42, 1);
 }
 
 img[data-src]
@@ -263,7 +263,7 @@ footer
 legend
 {
 	margin-bottom: 20px;
-	color: rgba(254, 128, 66, 1);
+	color: rgba(200, 81, 42, 1);
 }
 
 form

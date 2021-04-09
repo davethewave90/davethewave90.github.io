@@ -11,7 +11,7 @@ A common viewport for Apple tablets, laptops and small desktop monitors */
 
 picture img
 {
-box-shadow: 0px 10px 40px #000000;
+box-shadow: 0px 10px 40px rgba(0, 0, 0, 1);
 }
 	
 #logo
