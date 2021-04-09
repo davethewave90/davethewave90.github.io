@@ -247,6 +247,11 @@ button
 	text-align: center;
 }
 
+#attributions
+{
+	color: rgba(255, 255, 255, 1);
+}
+
 footer
 {
 	width: 100%;
