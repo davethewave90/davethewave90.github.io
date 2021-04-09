@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+<html lang="en-us">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Welcome to the Mapleton Chamber of Commerce contact us response page. This page will
+be viewed once a user has filled out the contact us form. This site's goal is to promote the business needs of our city.">
+<link href="css/normalize.css" rel="stylesheet" type="text/css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Heebo&family=Roboto&family=Roboto+Condensed&family=Yantramanav&display=swap" rel="stylesheet"> 
+<link href="css/main.css" rel="stylesheet" type="text/css">
+<link href="css/medium.css" rel="stylesheet" type="text/css">
+<link href="css/large.css" rel="stylesheet" type="text/css">
+<link rel="icon" href="images/logo.webp" type="image/gif" sizes="16x16">
+<script src="js/year.js"></script>
+<script src="js/hamburger_nav.js"></script>
+<title>Thank You For Contacting Us</title>
+</head>
+<body onload="copyright_year()">
+
+<header>
+	<img id="logo" alt="Logo" src="images/logo.webp">
+	<h6>Mapleton Chamber of Commerce</h6>
+	
+	<nav>
+		<button onclick="toggle_nav()">&#9776;</button>
+		<ul id="hamburger_nav" class="hide_nav">
+			<li class="main_links"><a href="index.html">Home</a></li>
+			<li class="main_links"><a href="city.html">About Mapleton</a></li>
+			<li class="main_links"><a href="#">Contact Us</a></li>
+			<li class="main_links"><a href="directory.html">Business Directory</a></li>
+			<li><a id="active" href="join.html">Join Us</a></li>
+		</ul>
+	</nav>
+</header>
+
+<main>
+	<div>
+		<h5 class="thanks">Thank you for contacting us!</h5>
+		<p>Thank you so much for your interest and your input on our city. One of our representatives will be responding to you shortly.</p>
+	</div>
+</main>
+
+<footer>
+	<span>&copy;</span> <span id="year"></span><span> mapletonofutah.com</span>
+</footer>
+
+<script src="js/web_font_load.js"></script>
+</body>
+</html>

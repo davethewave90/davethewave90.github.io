@@ -1,0 +1,334 @@
+/* Optimized for 390 X 844 screen sizes.
+The viewport of the iphone 12 and iphone 12 pro. */
+
+body
+{
+	font-family: 'Roboto', 'Roboto Condensed', 'Yantramanav', 'Heebo', sans-serif;
+	font-size: 16px;
+	background-color: rgba(222, 222, 222, 1);
+	color: rgba(0, 0, 0, 1);
+	max-width: 100%;
+}
+
+p, span
+{
+	line-height: 25px;
+	word-wrap: break-word;
+}
+
+.images_with_indents
+{
+	margin-bottom: 20px;
+}
+
+h6
+{
+	font-size: 1.1rem;
+}
+
+h5
+{
+	font-size: 1.2rem;
+}
+
+h4
+{
+	font-size: 1.3rem;
+}
+
+h3
+{
+	font-size: 1.4rem;
+}
+
+h2
+{
+	font-size: 1.5rem;
+}
+
+h1
+{
+	font-size: 1.6rem;
+}
+
+img
+{
+	display: block;
+	overflow: hidden;
+	max-width: 100%;
+}
+
+header
+{
+	width: 100%;
+	padding-top: 3.5%;
+	padding-bottom: 3.5%;
+	background-color: rgba(66, 122, 169, 1);
+	color: rgba(255, 255, 255, 1);
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr;
+}
+
+h6
+{
+	padding-left: 1.5%;
+	grid-column-start: 1;
+	grid-column-end: 1;
+	grid-row-start: 1;
+	grid-row-end: 1;
+}
+
+#logo
+{
+	width: 50px;
+	height: 50px;
+	grid-column-start: 1;
+	grid-column-end: 1;
+	grid-row-start: 1;
+	grid-row-end: 1;
+	margin-left: 280px;
+	margin-top: 30px;
+}
+
+button
+{
+	background-color: transparent;
+	color: white;
+	border: none;
+	grid-column-start: 1;
+	grid-column-end: 1;
+	grid-row-start: 1;
+	grid-row-end: 1;
+	font-size: 1.8rem;
+	margin-top: 0.5%;
+}
+
+nav
+{
+	grid-column-start: 1;
+	grid-column-end: 1;
+	grid-row-start: 1;
+	grid-row-end: 1;
+	margin-left: 250px;
+}
+
+div
+{
+	background-color: rgba(255, 2255, 255, 1);
+	padding: 2%;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+}
+
+li a
+{
+	color: rgba(0, 0, 0, 1);
+	text-decoration: none;
+}
+
+li a:hover
+{
+	text-decoration: underline;
+	background-color: rgba(255, 255, 255, 1);
+}
+
+#active
+{
+	background-color: rgba(255, 255, 255, 1);
+}
+
+#active:hover;
+{
+	text-decoration: underline;
+}
+
+.main_links
+{
+	margin-bottom: 10px;
+}
+  
+.hide_nav
+{
+	display: none; 
+}
+
+#hamburger_nav
+{
+	background-color: rgba(200, 200, 200, 1);
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-top: 100px;
+	margin-left: -250px;
+}
+
+main
+{
+	margin-top: 2%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.highlights
+{
+	color: rgba(164, 61, 71, 1);
+	text-align: center;
+}
+
+.h5_subtitles
+{
+	color: rgba(173, 138, 73, 1);
+}
+
+.h3_subtitles
+{
+	color: rgba(254, 128, 66, 1);
+}
+
+img[data-src]
+{
+	filter: blur(0.2em);
+}
+
+.images
+{
+	margin-top: 2%;	
+	width: 580px;
+	height: 348px;
+	filter: blur(0em);
+	transition: filter 0.5s
+}
+
+ul
+{
+	list-style-type: none;
+}
+
+#first_social_media_li
+{
+	display: inline;
+}
+
+.social_media_list
+{
+	margin-left: 10px;
+	display: inline;
+}
+
+.social_media_icons
+{
+	height: 50px;
+	width: 50px;
+	display: inline;
+}
+
+.social_media_icons:hover
+{
+	height: 65px;
+	width: 65px;
+}
+
+iframe
+{
+	height: 100px;
+	width: 100%;
+	margin-top: 20px;
+}
+
+button
+{
+	margin-left: 100px;
+}
+
+#join_us
+{
+	text-align: center;
+}
+
+footer
+{
+	width: 100%;
+	padding-top: 3.5%;
+	padding-bottom: 3.5%;
+	background-color: rgba(66, 122, 169, 1);
+	color: rgba(255, 255, 255, 1);
+	text-align: center;
+	margin-top: 20px;
+}
+
+/* here begins join page */
+
+legend
+{
+	margin-bottom: 20px;
+	color: rgba(254, 128, 66, 1);
+}
+
+form
+{
+	text-align: left;
+}
+
+label
+{
+	display: block;
+	color: rgba(164, 61, 71, 1);
+}
+
+.inputs
+{
+	padding: 5px;
+}
+
+.thanks
+{
+	text-align: center;
+}
+
+#submit_button
+{
+	padding: 5px;
+	margin-top: 10px;
+	background-color: rgba(66, 122, 169, 1);
+	color: rgba(255, 255, 255, 1);
+}
+	
+/* here begins the about page */
+	
+#general_info
+{
+	display: block;
+	text-align: left;
+	margin-left: -30px;
+}
+	
+.general_info_items
+{
+	margin-top: 10px;
+}	
+
+/* here begins the directory page */
+
+#directory_title
+{
+  text-align: center;
+  color: rgba(164, 61, 71, 1);
+}
+
+.cards
+{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 10px;
+  margin-top: 0px;
+}
+
+section
+{
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}

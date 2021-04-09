@@ -1,0 +1,85 @@
+/* Optimized for 800 X 1280 screen sizes.
+The viewport of many popular Android OS and Fire OS tablets. */
+
+@media only screen and (min-width: 800px)
+{
+	
+p
+{
+	line-height: 30px;
+}
+	
+h6
+{
+	text-align: center;
+}	
+
+#logo
+{
+	width: 75px;
+	height: 75px;
+	margin-left: 10px;
+	margin-top: -15px;
+}
+
+button
+{
+	margin-top: -25px;
+	margin-left: 500px;
+}
+
+
+div picture img
+{
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.highlights
+{
+	text-align: center;
+}
+
+#first_social_media_li
+{
+	margin-left: 125px;
+}
+
+.social_media_list
+{
+	margin-left: 15px;
+}
+
+.social_media_icons
+{
+	height: 65px;
+	width: 65px;
+}
+
+.social_media_icons:hover
+{
+	height: 80px;
+	width: 80px;
+}
+
+iframe
+{
+	height: 200px;
+}
+
+/* here begins the join page */
+
+.inputs
+{
+	padding: 10px;
+}
+  
+/* here begins the directory page */
+  
+.cards
+{
+  grid-template-columns: 1fr 1fr;
+}
+
+}

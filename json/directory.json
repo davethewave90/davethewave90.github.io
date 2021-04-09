@@ -1,0 +1,28 @@
+{
+	"businesses":
+	[
+		{
+			"name": "Family Pet Hospital",
+			"address": "448 N 1600 W, Mapleton, UT 84664",
+			"telephone": "(801)-489-6369",
+			"email": "N/A *Use in-site contact page.",
+			"business_url": "https://fphmapleton.com/"
+		},
+		{
+			"name": "Maple Mountain Pharmacy",
+			"address": "448 N 1600 W, Mapleton, UT 84664",
+			"telephone": "(801)-489-6369",
+			"email": "N/A *Use in-site contact page.",
+			"business_url": "https://fphmapleton.com/",
+			"hours": "Monday - Friday 845am - 6pm"
+		},
+		{
+			"name": "Sorenson Auto",
+			"address": "1410 W 1600 N, Mapleton, UT 84664",
+			"telephone": "(801) 489-6141",
+			"email": "N/A *Use in-site contact page.",
+			"business_url": "https://www.facebook.com/Sorensensauto/",
+			"hours": "Tuesday - Friday 8am - 6pm"
+		}
+	]
+}

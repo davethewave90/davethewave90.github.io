@@ -1,0 +1,105 @@
+<!DOCTYPE HTML>
+<html lang="en-us">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Welcome to the Mapleton Chamber of Commerce membership sign up page. This page is intended to be the
+sign up page for new members. This site's goal is to promote the business needs of our city.">
+<link href="css/normalize.css" rel="stylesheet" type="text/css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Heebo&family=Roboto&family=Roboto+Condensed&family=Yantramanav&display=swap" rel="stylesheet"> 
+<link href="css/main.css" rel="stylesheet" type="text/css">
+<link href="css/medium.css" rel="stylesheet" type="text/css">
+<link href="css/large.css" rel="stylesheet" type="text/css">
+<link rel="icon" href="images/logo.webp" type="image/gif" sizes="16x16">
+<script src="js/year.js"></script>
+<script src="js/hamburger_nav.js"></script>
+<title>Become a Member Today</title>
+</head>
+<body onload="copyright_year()">
+
+<header>
+	<img id="logo" alt="Logo" src="images/logo.webp">
+	<h6>Mapleton Chamber of Commerce</h6>
+	
+	<nav>
+		<button onclick="toggle_nav()">&#9776;</button>
+		<ul id="hamburger_nav" class="hide_nav">
+			<li class="main_links"><a href="index.html">Home</a></li>
+			<li class="main_links"><a href="city.html">About Mapleton</a></li>
+			<li class="main_links"><a href="contact.html">Contact Us</a></li>
+			<li class="main_links"><a href="directory.html">Business Directory</a></li>
+			<li><a id="active" href="#">Join Us</a></li>
+		</ul>
+	</nav>
+</header>
+
+<main>
+
+<div><form method="GET" action="thanks.html">
+	<fieldset>
+		<legend>Business Information</legend>
+		<label class="info">
+			Title:
+			<select class="inputs" name="title">
+				<option selected disabled>Select title...</option>
+				<option value="Ms.">Ms.</option>
+				<option value="Mrs.">Mrs.</option>
+				<option value="Mr.">Mr.</option>
+			</select>
+		</label><br><br>
+		<label class="info">
+			First Name:
+			<input class="inputs" type="text" name="first_name" title="Please enter your first name" pattern="[A-Za-z\s]{5,}" required>
+		</label><br><br>
+		<label class="info">
+			Last Name:
+			<input class="inputs" type="text" name="last_name" title="Please enter your last name" pattern="[A-Za-z\s]{5,}" required>
+		</label><br><br>
+		<label class="info">
+			Email:
+			<input class="inputs" type="email" name="email" title="Please enter a valid email address" placeholder="email@provider.com" required>
+		</label><br><br>
+		<label class="info">
+			Cell Phone:
+			<input class="inputs" type="tel" name="cell_phone" title="please enter a valid cell phone number" required>
+		</label><br><br>
+		<label class="info">
+			Business Name:
+			<input class="inputs" type="text" name="business_name" title="Please enter your business name" pattern="[A-Za-z\s]{5,}" required>
+		</label><br><br>
+		<label class="info">
+			Business Address:
+			<input class="inputs" type="text" name="Business_address" title="Please enter a valid address" pattern="[A-Za-z0-9\s]{8,}" required>
+		</label><br><br>
+		<label class="info">
+			Business Website:
+			<input class="inputs" type="url" name="Business_website" title="Please enter your business website">
+		</label><br><br>
+		<label class="info">
+			Title:
+			<select class="inputs" name="Membership">
+				<option selected disabled>Desired Membership Level</option>
+				<option value="non_profit">Non-Profit($100)</option>
+				<option value="bronze">Bronze($200)</option>
+				<option value="silver">Silver($400)</option>
+				<option value="gold">Gold($1000)</option>
+			</select>
+		</label><br><br>
+		<label class="info">
+			Comments:
+			<textarea name="comments"></textarea>
+      </label>
+	</fieldset>
+	<input id="submit_button" type="submit" value="Become A Member">
+</form></div>
+	
+</main>
+
+<footer>
+	<span>&copy;</span> <span id="year"></span><span> mapletonofutah.com</span>
+</footer>
+
+<script src="js/web_font_load.js"></script>
+</body>
+</html>

@@ -1,0 +1,102 @@
+<!DOCTYPE HTML>
+<html lang="en-us">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Welcome to the Mapleton about us page. This page is intended for users to learn more about
+the great city of Mapleton, Utah. This site's goal is to promote the business needs of our city.">
+<link href="css/normalize.css" rel="stylesheet" type="text/css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Heebo&family=Roboto&family=Roboto+Condensed&family=Yantramanav&display=swap" rel="stylesheet"> 
+<link href="css/main.css" rel="stylesheet" type="text/css">
+<link href="css/medium.css" rel="stylesheet" type="text/css">
+<link href="css/large.css" rel="stylesheet" type="text/css">
+<link rel="icon" href="images/logo.webp" type="image/gif" sizes="16x16">
+<script src="js/year.js"></script>
+<script src="js/hamburger_nav.js"></script>
+<title>Mapleton Chamber of Commerce About Page</title>
+</head>
+<body onload="copyright_year()">
+
+<header>
+	<img id="logo" alt="Logo" src="images/logo.webp">
+	<h6>Mapleton Chamber of Commerce</h6>
+	
+	<nav>
+		<button onclick="toggle_nav()">&#9776;</button>
+		<ul id="hamburger_nav" class="hide_nav">
+			<li class="main_links"><a href="index.html">Home</a></li>
+			<li class="main_links"><a id="active" href="#">About Mapleton</a></li>
+			<li class="main_links"><a href="contact.html">Contact Us</a></li>
+			<li class="main_links"><a href="directory.html">Business Directory</a></li>
+			<li><a href="join.html">Join Us</a></li>
+		</ul>
+	</nav>
+</header>
+
+<main>
+
+	<div><picture>
+		<img class="images images_with_indents" src="images/placeholder.webp" data-src="images/city_hall.webp" alt="Mapleton City Hall">
+	</picture></div>
+	
+	<div><h3 class="highlights">About Mapleton Utah:</h3><br>
+	
+	<h5 class="h5_subtitles">General Info:</h5>
+	<picture>
+		<img class="images" src="images/placeholder.webp" data-src="images/construction.webp" alt="Construction Site">
+	</picture>
+	<p id="interest_thanks">Thank you for your interest in Mapleton, Utah. This section provides general details about our city.</p>
+	<ul id="general_info">
+		<li><b>City Name:</b> Mapleton</li>
+		<li class="general_info_items"><b>County:</b> Utah County</li>
+		<li class="general_info_items"><b>State:</b> Utah</li>
+		<li class="general_info_items"><b>Population:</b>  7,979</li>
+		<li class="general_info_items"><b>Elevation:</b> 4,731 ft.</li>
+		<li class="general_info_items"><b>Total Area:</b> 32.6 km<sup>2<sup></li>
+	</ul></div>
+	
+	<div><h5 class="h5_subtitles">Interesting Fact:</h5>
+	<picture>
+		<img class="images images_with_indents" src="images/placeholder.webp" data-src="images/church1.webp" alt="Church of Jesus Christ of Latter-Day Saints">
+	</picture>		
+	<span class="indents">One</span><span> thing that many know and think about when they think about Utah is the high population of members of The Church of Jesus
+	Christ of Latter-Day Saints. Also Known as Mormons. What may be unknown is just how high the density of said members is within Mapleton.
+	It is estimated that over 93% of Mapletonians are members of the Church. If you are a member of this Church, Mapleton can bring a sense
+	of community hard to find in many of our nation's cities. If not, do not worry. All people in Mapleton are known for being friendly and
+	tolerant of all people and their beliefs. The interesting fact is just how many "Mormon" churches there are in Mapleton alone. While
+	there are no temples in Mapleton, there are more than a dozen churches in Mapleton and the surroundng city of Springville.</span>
+	<picture>
+		<img class="images" src="images/placeholder.webp" data-src="images/church2.webp" alt="Church of Jesus Christ of Latter-Day Saints">
+	</picture>	
+	<picture>
+		<img class="images" src="images/placeholder.webp" data-src="images/church3.webp" alt="Church of Jesus Christ of Latter-Day Saints">
+	</picture>	</div>
+	
+	<div><h3 id="about_us" class="h3_subtitles">Upcoming events:</h3><br>	
+	<h5 class="h5_subtitles">Fun Run: May 27th</h5>
+	<picture>
+		<img class="images images_with_indents" src="images/placeholder.webp" data-src="images/pond.webp" alt="Bartholomew Park Pond">
+	</picture>	
+	<span class="indents">Come</span><span> join us for a fun and exciting run just for fun. This will be through the streets and parks of our gorgeous Mapleton. It is a
+	5K event so be sure to bring a friend and plenty of water!</span>
+	<h5 class="h5_subtitles">Pioneer Day: July 24th</h5>
+	<picture>
+		<img class="images images_with_indents" src="images/placeholder.webp" data-src="images/park.webp" alt="Mapleton North Park">
+	</picture>	
+	<span class="indents">Pioneer</span><span> Day! Saturday July 24th. Come one come all. Together let us celebrate with our friends and
+	loved ones the pilgramige and the sacrifices made for us by our pioneer ancestors. This year we gather at Mapleton North Park. There are grills
+	and shaded seating provided. These though are first-come first-serve. There is plenty of open park space available however to bring
+	your own grill and seating. Please be respectful of others, wear a mask when not eating and practice social distancing when possible.
+	And of course, a spectacular fireworks show at 9pm.</span></div>
+
+</main>
+
+<footer>
+	<span>&copy;</span> <span id="year"></span><span> mapletonofutah.com</span>
+</footer>
+
+<script src="js/lazy_load.js" defer></script>
+<script src="js/web_font_load.js"></script>
+</body>
+</html>

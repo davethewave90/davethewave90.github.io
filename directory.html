@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+<html lang="en-us">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Welcome to the Mapleton Chamber of Commerce home page. This page is intended to be the home
+page. This site's goal is to promote the business needs of our city.">
+<link href="css/normalize.css" rel="stylesheet" type="text/css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Heebo&family=Roboto&family=Roboto+Condensed&family=Yantramanav&display=swap" rel="stylesheet"> 
+<link href="css/main.css" rel="stylesheet" type="text/css">
+<link href="css/medium.css" rel="stylesheet" type="text/css">
+<link href="css/large.css" rel="stylesheet" type="text/css">
+<link rel="icon" href="images/logo.webp" type="image/gif" sizes="16x16">
+<script src="js/year.js"></script>
+<script src="js/hamburger_nav.js"></script>
+<script src="js/directory.js"></script>
+<title>Mapleton Chamber of Commerce Home Page</title>
+</head>
+<body onload="copyright_year()">
+
+<header>
+	<img id="logo" alt="Logo" src="images/logo.webp">
+	<h6>Mapleton Chamber of Commerce</h6>
+	
+	<nav>
+		<button onclick="toggle_nav()">&#9776;</button>
+		<ul id="hamburger_nav" class="hide_nav">
+			<li class="main_links"><a href="index.html">Home</a></li>
+			<li class="main_links"><a href="city.html">About Mapleton</a></li>
+			<li class="main_links"><a href="contact.html">Contact Us</a></li>
+			<li class="main_links"><a id="active" href="#">Business Directory</a></li>
+			<li><a href="join.html">Join Us</a></li>
+		</ul>
+	</nav>
+</header>
+
+<main>
+  <div><h3 id="directory_title">Business Directory:</h3></div>
+	<div class="cards"></div>
+
+</main>
+
+<footer>
+  <span>&copy;</span> <span id="year"></span><span> mapletonofutah.com</span>
+</footer>
+ 
+<script src="js/web_font_load.js"></script>
+</body>
+</html>

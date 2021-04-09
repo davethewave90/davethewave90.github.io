@@ -1,0 +1,96 @@
+/* Optimized for 1024 X 768 screen sizes.
+A common viewport for Apple tablets, laptops and small desktop monitors */
+
+@media only screen and (min-width: 1024px)
+{
+	
+.indents
+{
+	margin-left: 4rem;
+}
+
+picture img
+{
+box-shadow: 0px 10px 40px #000000;
+}
+	
+#logo
+{
+	width: 100px;
+	height: 100px;
+}
+
+#interest_thanks
+{
+	text-align: center;
+	margin: 45px auto auto 20px;
+}
+
+h6
+{
+	margin-top: 25px;
+}
+
+.h5_subtitles
+{
+	text-align: center;
+}
+
+#about_us
+{
+	text-align: center;
+}
+	
+button
+{
+	display: none;
+}
+	
+.hide_nav
+{
+  display: block;
+}
+
+#first_social_media_li
+{
+	margin-left: 190px;
+}
+
+.social_media_list
+{
+	margin-left: 20px;
+}
+
+.social_media_icons
+{
+	height: 80px;
+	width: 80px;
+}
+
+.social_media_icons:hover
+{
+	height: 95px;
+	width: 95px;
+}
+
+
+iframe
+{
+	height: 400px;
+}
+
+/* here begins the join page */
+
+.inputs
+{
+	padding: 10px;
+}
+  
+/* here begins the directory page */
+  
+.cards
+{
+  grid-template-columns: 1fr 1fr 1fr;
+}
+	
+}
